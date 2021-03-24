@@ -1,14 +1,11 @@
 body {
   margin: 0 0 0 0;
   /*background-color: #fcf8e8;*/
-
   text-align: center;
 }
 
 /*---------------------------top Section-----------------------------*/
-
-
-h1 {
+.ossie {
   color: black;
   font-family: 'Sacramento', sans-serif;
   font-size: 5em;
@@ -16,26 +13,26 @@ h1 {
   margin-top: 0;
   margin-bottom: 0;
   position: relative;
-  bottom: 50px;
+  bottom: 30px;
 }
 
-hr{
+.dots {
   background: white;
   color: grey;
   border-style: none;
   border-top-style: dotted;
-  width:15%;
+  width: 15%;
   border-width: 10px;
   position: relative;
-  bottom:40px;
+  bottom: 40px;
 }
 
 p {
   color: black;
-  font-family: 'Lato',sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 25px;
   font-weight: 300;
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: 0;
   margin-bottom: 0;
   /*position: relative;
@@ -43,12 +40,12 @@ p {
   width: 70%;
 }
 
-.introduction1{
+.introduction1 {
   color: #fb5b5a;
   font-family: sans-serif;
   font-size: 25px;
   font-weight: 500;
-  margin-left:200px;
+  margin-left: 200px;
   margin-top: 0;
   position: relative;
   bottom: 100px;
@@ -59,64 +56,64 @@ p {
   background-size: contain;
   height: 500px;
   width: 100%;
-  margin-top:0;
+  margin-top: 0;
   text-align: center;
 }
 
-.top_icon{
+.top_icon {
   height: 100px;
   width: 100px;
 }
 
-.name{
-  height:300px;
+.name {
+  height: 400px;
   width: 100%;
 }
 
-.intro{
+.intro {
   background-color: rgba(255, 255, 255, 0.7);
   margin-top: 0;
-  height: 300px;
+  height: auto;
   width: 100%;
-  text-align:center;
+  text-align: center;
 }
 
 #kitty {
-  position:relative;
-  top:100px;
-  right:500px;
+  position: relative;
+  top: 100px;
+  right: 500px;
 }
 
-#calculator{
-  position:relative;
-  top:100px;
-  right:150px;
+#calculator {
+  position: relative;
+  top: 100px;
+  right: 150px;
 }
 
-#computer{
-  position:relative;
-  top:100px;
-  left:500px;
+#computer {
+  position: relative;
+  top: 100px;
+  left: 500px;
 }
 
-#stock{
-  position:relative;
-  top:100px;
-  left:150px;
+#stock {
+  position: relative;
+  top: 100px;
+  left: 150px;
 }
 
 #avatar {
   height: 200px;
   width: 200px;
-  position:relative;
+  position: relative;
   bottom: 120px;
   border-radius: 100%;
-  margin-top:0;
+  margin-top: 0;
   visibility: visible;
 }
 
 /*-------------------Skill Section-------------------------------------*/
-.skill_section{
+.skill_section {
   background-color: #ecb390;
   margin-top: 100px;
 }
