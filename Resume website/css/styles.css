@@ -53,7 +53,7 @@ p {
 
 .top_section {
   background-image: url('../image/line2.gif');
-  background-size: contain;
+  background-size:contain;
   height: 500px;
   width: 100%;
   margin-top: 0;
@@ -82,24 +82,29 @@ p {
   position: relative;
   top: 100px;
   right: 500px;
+  visibility:hidden;
+
 }
 
 #calculator {
   position: relative;
   top: 100px;
   right: 150px;
+  visibility:hidden;
 }
 
 #computer {
   position: relative;
   top: 100px;
   left: 500px;
+  visibility:hidden;
 }
 
 #stock {
   position: relative;
   top: 100px;
   left: 150px;
+  visibility:hidden;
 }
 
 #avatar {
